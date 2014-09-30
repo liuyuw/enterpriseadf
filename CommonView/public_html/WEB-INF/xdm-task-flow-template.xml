@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
   <task-flow-template id="xdm-task-flow-template">
+    <default-activity>exception</default-activity>
     <data-control-scope>
       <shared/>
     </data-control-scope>
+    <exception-handler>exception</exception-handler>
+    <view id="exception"></view>
     <use-page-fragments/>
   </task-flow-template>
 </adfc-config>
